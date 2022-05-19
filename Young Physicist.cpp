@@ -7,7 +7,7 @@ int main()
     int t, x, y, z, a(0), b(0), c(0);
     cin >> t;
 
-    while(t--)
+    for (int i=0; i<n; i++)
     {
         cin >> x >> y >> z;
         a += x;
